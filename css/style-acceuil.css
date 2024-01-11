@@ -1,0 +1,223 @@
+/*
+ * /css.style.css
+ * style css du site MMA JO2024
+ *
+ * author: Moumen
+ *date 11/2022
+ */
+
+body {
+    margin: 0;
+    align-items: center;
+    align-self: center;
+}
+
+html {
+    background-color: black;
+}
+
+@font-face {
+    font-family: "NoFex";
+    src: url(./fonts/NofexRegular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "WNBA";
+    src: url(./fonts/WNBA-Regular.woff2);
+    font-style: normal;
+}
+@font-face {
+    font-family: "WNBA";
+    src: url(./fonts/WNBA-Bold.woff2);
+    font-style: bold;
+}
+/* barre de navigation*/
+nav {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    height: 46px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    flex-direction: row-reverse;
+}
+li a {
+    font-family: "WNBA";
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.active {
+    font-family: "WNBA";
+    font-style: bold;
+    text-decoration: underline 3px;
+}
+#form {
+    margin-right: 57%;
+    margin-top: 10px;
+    font-family: "WNBA";
+    color: black;
+}
+
+nav img {
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#jumbotron {
+    padding-top: 0.1px;
+    height: 800px;
+}
+
+#jumbotron img {
+    height: 800px;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#jumbotron h1 {
+    font-family: "NoFex";
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 200px;
+}
+#jumbotron h3 {
+    font-family: "NoFex";
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -75px;
+}
+
+#presentation {
+    padding-top: 0.1px;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 20px;
+}
+#presentation h2 {
+    font-family: "NoFex";
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+#presentation p {
+    font-family: "WNBA";
+    font-style: bold;
+    text-align: center;
+    color: white;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+#presentation iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mot_clef {
+    background-color: white;
+    padding-top: 0.1px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#mot_clef h2 {
+    font-family: "NoFex";
+    font-size: 23px;
+    text-align: center;
+}
+#mot_clef p {
+    font-family: "WNBA";
+    font-style: bold;
+    text-align: left;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+#datescles-left {
+    background-color: black;
+}
+#datescles-right {
+    text-align: right;
+    background-color: black;
+}
+
+#dates h2 {
+    padding-top: 20px;
+    font-family: "NoFex";
+    color: white;
+    text-align: center;
+}
+#date-left {
+    font-family: "WNBA";
+    font-style: bold;
+    color: white;
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 155px;
+}
+#text-left {
+    font-family: "WNBA";
+    font-style: bold;
+    color: white;
+    margin-right: 50%;
+}
+#MMA {
+    position: absolute;
+    width: 79px;
+    margin-left: 20px;
+}
+
+#left {
+    margin-right: 50%;
+    color: white;
+    overflow: visible;
+    text-align: left;
+}
+#right {
+    margin-left: 50%;
+    color: white;
+    overflow: visible;
+    text-align: left;
+}
+
+#UFC1 {
+    position: absolute;
+    width: 90px;
+}
+
+#date-right {
+    font-family: "WNBA";
+    font-style: bold;
+    color: white;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 140px;
+}
+
+#text-right {
+    font-family: "WNBA";
+    font-style: bold;
+    color: white;
+    text-align: right;
+    margin-left: 50%;
+}
+
+footer {
+    background-color: white;
+    height: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}

@@ -1,0 +1,127 @@
+/*
+ * /css.style-regle.css
+ * style css du site MMA JO2024
+ *
+ * author: Moumen
+ *date 11/2022
+ */
+
+body {
+    margin: 0;
+    align-items: center;
+    align-self: center;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: "NoFex";
+    src: url(./fonts/NofexRegular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "WNBA";
+    src: url(./fonts/WNBA-Regular.woff2);
+    font-style: normal;
+}
+@font-face {
+    font-family: "WNBA";
+    src: url(./fonts/WNBA-Bold.woff2);
+    font-style: bold;
+}
+/* barre de navigation*/
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin-top: 16px;
+}
+
+li {
+    flex-direction: row-reverse;
+    float: left;
+}
+li a {
+    font-family: "WNBA";
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.active {
+    font-family: "WNBA";
+    font-style: bold;
+    text-decoration: underline 3px;
+}
+
+#form {
+    font-family: "WNBA";
+    color: rgb(0, 0, 0);
+    list-style: none;
+    margin-left: 10px;
+}
+
+nav img {
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.btn-primaire {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fa0000;
+    --bs-btn-border-color: #0c0d0e;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c40202;
+    --bs-btn-hover-border-color: #131314;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn-secondaire {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #303131;
+    --bs-btn-border-color: #6c757d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #4c4d4e;
+    --bs-btn-hover-border-color: #565e64;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #565e64;
+    --bs-btn-active-border-color: #51585e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6c757d;
+    --bs-btn-disabled-border-color: #6c757d;
+}
+
+.form-check-input:checked {
+    background-color: #fd0d0d;
+    border-color: #01060f;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8" />
+        <title>Inscription / JO2024 MMA</title>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style-form.css" />
+    </head>
+    <body>
+        <!--navbar-->
+        <nav class="mb-3">
+            <div class="nav-bar">
+                <div class="left-nav">
+                    <img
+                        src="img/LOGO_JO.png"
+                        alt="logo_JO"
+                        href="index.html"
+                        class="logo"
+                    />
+                    <div id="form">
+                        <li>
+                            <a href="formulaire.html" class="active"
+                                >Formulaire d'inscription</a
+                            >
+                        </li>
+                    </div>
+                </div>
+
+                <!--barre de navigation-->
+                <ul>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="regles.html">Règles</a></li>
+                    <li><a href="palmares.html">Palmarès</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container border border-danger rounded col-md-5">
+            <form>
+                <legend>Inscription</legend>
+                <fieldset class="row mb-3">
+                    <legend class="col-form-label col-sm-2 pt-0">Sexe:</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gridRadios"
+                                id="gridRadios1"
+                                value="option1"
+                                required
+                            />
+                            <label class="form-check-label" for="gridRadios1">
+                                Homme
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="radio"
+                                name="gridRadios"
+                                id="gridRadios2"
+                                value="option2"
+                            />
+                            <label class="form-check-label" for="gridRadios2">
+                                Femme
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="row mb-3">
+                    <div class="col">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Nom"
+                            id="nom"
+                            required
+                        />
+                    </div>
+                    <div class="col">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Prénom"
+                            aria-label="Last name"
+                            required
+                        />
+                    </div>
+                </div>
+                <select
+                    class="form-select mb-3"
+                    aria-label="Default select example"
+                    required
+                >
+                    <option selected value="">Nationalité</option>
+                    <option value="europe">Europe</option>
+                    <option value="asie">Asie</option>
+                    <option value="amerique-nord">Amérique du Nord</option>
+                    <option value="amerique-sud">Amérique du Sud</option>
+                    <option value="russie">Russie</option>
+                </select>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label"
+                        >Email</label
+                    >
+                    <div class="col-sm-10">
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="inputEmail3"
+                            placeholder="exemple@domaine.xxx"
+                            required
+                        />
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label"
+                        >Mot de passe</label
+                    >
+                    <div class="col-sm-10">
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="inputPassword3"
+                            placeholder="Azerty1234"
+                        />
+                    </div>
+                </div>
+
+                <fieldset>
+                    <legend class="col-form-label">
+                        Quels sont vos disciplines préféré ?
+                    </legend>
+                    <div class="col-form-label row col-md-8 m-1">
+                        <div class="form-check form-check-inline col">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="inlineCheckbox1"
+                                value="option1"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="inlineCheckbox1"
+                                >Boxe</label
+                            >
+                        </div>
+                        <div class="form-check form-check-inline col">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="inlineCheckbox2"
+                                value="option2"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="inlineCheckbox2"
+                                >Lutte</label
+                            >
+                        </div>
+                        <div class="form-check form-check-inline col">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="inlineCheckbox3"
+                                value="option3"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="inlineCheckbox1"
+                                >Judo</label
+                            >
+                        </div>
+                    </div>
+                    <div class="mb-3 row col-md-8 m-1">
+                        <div class="form-check form-check-inline col">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="inlineCheckbox4"
+                                value="option4"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="inlineCheckbox2"
+                                >Jujitsu</label
+                            >
+                        </div>
+                        <div class="form-check form-check-inline col">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="inlineCheckbox5"
+                                value="option5"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="inlineCheckbox1"
+                                >Muay Thai</label
+                            >
+                        </div>
+                        <div class="form-check form-check-inline col">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="inlineCheckbox6"
+                                value="option6"
+                            />
+                            <label
+                                class="form-check-label"
+                                for="inlineCheckbox2"
+                                >Jiu-jitsu brésilien</label
+                            >
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mb-3">
+                    <button
+                        type="button"
+                        class="btn btn-danger"
+                        onclick="checkForm()"
+                    >
+                        Valider
+                    </button>
+                    <button type="submit" class="btn btn-dark">Annuler</button>
+                </div>
+            </form>
+        </div>
+        <script src="./js/form.js"></script>
+    </body>
+</html>

@@ -1,0 +1,210 @@
+/*
+ * /css.style-regle.css
+ * style css du site MMA JO2024
+ *
+ * author: Moumen
+ *date 11/2022
+ */
+
+body {
+    margin: 0;
+    align-items: center;
+    align-self: center;
+}
+
+html {
+    background-color: black;
+}
+
+@font-face {
+    font-family: "NoFex";
+    src: url(./fonts/NofexRegular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "WNBA";
+    src: url(./fonts/WNBA-Regular.woff2);
+    font-style: normal;
+}
+@font-face {
+    font-family: "WNBA";
+    src: url(./fonts/WNBA-Bold.woff2);
+    font-style: bold;
+}
+/* barre de navigation*/
+nav {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    height: 46px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    flex-direction: row-reverse;
+}
+li a {
+    font-family: "WNBA";
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.active {
+    font-family: "WNBA";
+    font-style: bold;
+    text-decoration: underline 3px;
+}
+
+nav img {
+    width: 250px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#jumbotron {
+    padding-top: 0.1px;
+    height: 800px;
+}
+#jumbotron img {
+    height: 800px;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#jumbotron h1 {
+    font-family: "NoFex";
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 200px;
+}
+#jumbotron h3 {
+    font-family: "NoFex";
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -75px;
+}
+
+#rules {
+    padding-top: 0.1px;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 20px;
+}
+#rules h2 {
+    font-family: "NoFex";
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+
+#rules-f {
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#rules-f p {
+    font-family: "WNBA";
+    font-style: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+#rules-f img {
+    margin-right: 20px;
+    height: 321px;
+    width: 570px;
+}
+
+#rules-s {
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#rules-s p {
+    font-family: "WNBA";
+    margin-left: auto;
+    margin-right: auto;
+}
+#rules-s img {
+    margin-left: 20px;
+    height: 321px;
+    width: 570px;
+}
+
+#rules-t {
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#rules-t p {
+    font-family: "WNBA";
+    font-style: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+#rules-t img {
+    margin-right: 20px;
+    height: 321px;
+    width: 570px;
+}
+
+#rules-q {
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#rules-q p {
+    font-family: "WNBA";
+    font-style: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+#rules-q img {
+    margin-left: 20px;
+    height: 321px;
+    width: 570px;
+}
+
+footer {
+    background-color: white;
+    height: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
